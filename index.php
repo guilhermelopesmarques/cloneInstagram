@@ -33,7 +33,16 @@
                     <p>Americana</p>
                 </div>
             </div>
-             <p><img src="img/<?php echo $fotos[$i]; ?>" class="img-fluid"></p>
+             <img src="img/<?php echo $fotos[$i]; ?>" class="img-fluid">
+             <div class="row">
+                <div class="col-12">
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-chat"></i>
+                </div>
+                <div class="col-12">
+                    <p><?php echo $legendas[$i]; ?></p>
+                </div>
+             </div>
         </div>
         <?php
         endfor;
